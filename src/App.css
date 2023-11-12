@@ -15,17 +15,19 @@
 #welcome {
   background-color: #123566;
   height:100vh;
-  bottom: 50px;
-  padding-top:75px;
-  margin-top: 0px;
   border-bottom: 5px solid black;
+  padding-top: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 #welcometitle {
   font-size: 9vw;
   color: white;
   font-family: 'Palanquin', sans-serif;
-  bottom: 0;
+  margin-bottom: -10px;
 }
 
 @media (min-width: 1200px) {
@@ -38,7 +40,7 @@
   font-size: 3.5vw;
   color: white;
   font-family: 'Roboto', sans-serif;
-  bottom: 0;
+  margin-top: 0;
 }
 
 @media (min-width: 1200px) {
@@ -95,6 +97,29 @@
   font-size: 20px;
 }
 
+#scrollToTop {
+  display: block;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 50px;
+  position: fixed;
+  font-size: 40px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  cursor: pointer;
+  justify-content: flex-end;
+  bottom: 10px;
+  right: 10px;
+  z-index: 1000;
+}
+
+@media (max-height: 768px) {
+  #scrollToTop {
+    display:none;
+  }
+}
+
 h1 {
   font-size: 50px;
 }
@@ -106,4 +131,32 @@ h1 {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+#about {
+  background-color: white;
+  height:100vh;
+  border-bottom: 5px solid black;
+  padding-top: 1vh;
+  position: relative;
+}
+
+#skills {
+  position: relative;
+  background-color: rgb(52, 30, 13);
+}
+
+#portfolio {
+  position: relative;
+  background-color: white;
+}
+
+#education {
+  position: relative;
+  background-color: #123566;
+}
+
+#contacts {
+  position: relative;
+  background-color: white;
 }

@@ -13,6 +13,7 @@ function App() {
           <li><a href='#contacts'>Contacts</a></li>
         </ul>
       </div>
+      <button id='scrollToTop' onClick={scrollToTop}>^</button>
       <div id='welcome'>
         <h1 id='welcometitle'>Evan J. Chou</h1>
         <h2 id='jobtitle'>Software Engineer, Data Scientist, Student Researcher</h2>
@@ -46,7 +47,7 @@ function App() {
       <div id='portfolio'>
         <h1>Portfolio:</h1>
         <h2>React.js Portfolio</h2>
-        <p>Created a personal portfolio page using JavaScript, HTML, CSS, and React</p>
+        <p>Created a personal portfolio page using JavaScript, HTML, CSS, Node.js, and React</p>
         <h2>Artificial Intelligence and Machine Learning Research</h2>
         <p></p>
       </div>
@@ -68,10 +69,15 @@ function App() {
           <li>LinkedIn</li>
           <li>GitHub</li>
         </ul>
-        <h2>Personal Life Page</h2>
+        <h2>Personal Life Page (Coming soon)</h2>
       </div>
       </>
   );
+}
+
+function scrollToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
 
 export default App;
