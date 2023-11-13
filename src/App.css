@@ -43,6 +43,11 @@
   margin-top: 0;
 }
 
+#welcomePic {
+  align-items: center;
+  position: relative;
+}
+
 @media (min-width: 1200px) {
   #jobtitle {
     font-size: 40px;
@@ -112,12 +117,6 @@
   bottom: 10px;
   right: 10px;
   z-index: 1000;
-}
-
-@media (max-height: 768px) {
-  #scrollToTop {
-    display:none;
-  }
 }
 
 h1 {

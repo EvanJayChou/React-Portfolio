@@ -3,6 +3,7 @@ import './App.css';
 function App() {
   return (
     <>
+      <link rel='stylesheet' href="path/to/animate.css"/>
       <div id='topbar'>
         <h1 id='topleft'>Evan Chou</h1>
         <ul id='sections'>
@@ -15,6 +16,7 @@ function App() {
       </div>
       <button id='scrollToTop' onClick={scrollToTop}>^</button>
       <div id='welcome'>
+        <img src="../src/assets/contact-img.svg" alt="Evan Chou"/>
         <h1 id='welcometitle'>Evan J. Chou</h1>
         <h2 id='jobtitle'>Software Engineer, Data Scientist, Student Researcher</h2>
       </div>
@@ -69,7 +71,7 @@ function App() {
           <li>LinkedIn</li>
           <li>GitHub</li>
         </ul>
-        <h2>Personal Life Page (Coming soon)</h2>
+        <h2>Personal Life Blog (Coming soon)</h2>
       </div>
       </>
   );
