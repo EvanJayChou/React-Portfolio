@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.2fa6abec.css",
-    "main.js": "/React-Portfolio/static/js/main.5199f394.js",
+    "main.css": "/React-Portfolio/static/css/main.f87cd4fa.css",
+    "main.js": "/React-Portfolio/static/js/main.b8cee080.js",
     "static/js/787.456f82d2.chunk.js": "/React-Portfolio/static/js/787.456f82d2.chunk.js",
     "static/media/PalanquinDark-SemiBold.ttf": "/React-Portfolio/static/media/PalanquinDark-SemiBold.850ab211f6efceb29b34.ttf",
     "static/media/RobotoSlab-Bold.ttf": "/React-Portfolio/static/media/RobotoSlab-Bold.37f7c30bbfc1ebae4939.ttf",
     "index.html": "/React-Portfolio/index.html",
-    "main.2fa6abec.css.map": "/React-Portfolio/static/css/main.2fa6abec.css.map",
-    "main.5199f394.js.map": "/React-Portfolio/static/js/main.5199f394.js.map",
+    "main.f87cd4fa.css.map": "/React-Portfolio/static/css/main.f87cd4fa.css.map",
+    "main.b8cee080.js.map": "/React-Portfolio/static/js/main.b8cee080.js.map",
     "787.456f82d2.chunk.js.map": "/React-Portfolio/static/js/787.456f82d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fa6abec.css",
-    "static/js/main.5199f394.js"
+    "static/css/main.f87cd4fa.css",
+    "static/js/main.b8cee080.js"
   ]
 }
