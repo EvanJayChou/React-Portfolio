@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.f87cd4fa.css",
-    "main.js": "/React-Portfolio/static/js/main.b8cee080.js",
+    "main.css": "/React-Portfolio/static/css/main.fa1e4dc1.css",
+    "main.js": "/React-Portfolio/static/js/main.3b5ef01f.js",
     "static/js/787.456f82d2.chunk.js": "/React-Portfolio/static/js/787.456f82d2.chunk.js",
     "static/media/PalanquinDark-SemiBold.ttf": "/React-Portfolio/static/media/PalanquinDark-SemiBold.850ab211f6efceb29b34.ttf",
     "static/media/RobotoSlab-Bold.ttf": "/React-Portfolio/static/media/RobotoSlab-Bold.37f7c30bbfc1ebae4939.ttf",
+    "static/media/Programmer.png": "/React-Portfolio/static/media/Programmer.b23699ab4e5af5efd127.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.f87cd4fa.css.map": "/React-Portfolio/static/css/main.f87cd4fa.css.map",
-    "main.b8cee080.js.map": "/React-Portfolio/static/js/main.b8cee080.js.map",
+    "main.fa1e4dc1.css.map": "/React-Portfolio/static/css/main.fa1e4dc1.css.map",
+    "main.3b5ef01f.js.map": "/React-Portfolio/static/js/main.3b5ef01f.js.map",
     "787.456f82d2.chunk.js.map": "/React-Portfolio/static/js/787.456f82d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f87cd4fa.css",
-    "static/js/main.b8cee080.js"
+    "static/css/main.fa1e4dc1.css",
+    "static/js/main.3b5ef01f.js"
   ]
 }
