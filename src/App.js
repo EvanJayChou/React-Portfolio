@@ -16,7 +16,7 @@ function App() {
       </div>
       <button id='scrollToTop' onClick={scrollToTop}>^</button>
       <div id='welcome'>
-        <img src="../src/assets/contact-img.svg" alt="Evan Chou"/>
+        <img id='welcomePic'src={require('./assets/Programmer.png')} alt='Evan Chou'/>
         <h1 id='welcometitle'>Evan J. Chou</h1>
         <h2 id='jobtitle'>Software Engineer, Data Scientist, Student Researcher</h2>
       </div>

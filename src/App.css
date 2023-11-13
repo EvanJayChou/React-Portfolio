@@ -28,6 +28,7 @@
   color: white;
   font-family: 'Palanquin', sans-serif;
   margin-bottom: -10px;
+  margin-top: 0px;
 }
 
 @media (min-width: 1200px) {
@@ -43,11 +44,6 @@
   margin-top: 0;
 }
 
-#welcomePic {
-  align-items: center;
-  position: relative;
-}
-
 @media (min-width: 1200px) {
   #jobtitle {
     font-size: 40px;
@@ -58,6 +54,17 @@
   text-align: center;
 }
 
+#welcomePic {
+  width: 50vw;
+  height: auto;
+  max-width: 630px;
+}
+
+@media(min-width:1200px) {
+  #welcomePic {
+    width: 639px;
+  }
+}
 
 #topbar {
   color: black;
@@ -68,6 +75,12 @@
   position: fixed;
   top: 0px;
   font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 1200px) {
+  #topbar {
+    display: none;
+  }
 }
 
 #topleft {
