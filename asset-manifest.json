@@ -1,18 +1,37 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.fa1e4dc1.css",
-    "main.js": "/React-Portfolio/static/js/main.3b5ef01f.js",
+    "main.css": "/React-Portfolio/static/css/main.1009eb1f.css",
+    "main.js": "/React-Portfolio/static/js/main.d4dd1703.js",
     "static/js/787.456f82d2.chunk.js": "/React-Portfolio/static/js/787.456f82d2.chunk.js",
     "static/media/PalanquinDark-SemiBold.ttf": "/React-Portfolio/static/media/PalanquinDark-SemiBold.850ab211f6efceb29b34.ttf",
+    "static/media/JavaScriptIcon.png": "/React-Portfolio/static/media/JavaScriptIcon.c0a36a4d3ef2881a1c11.png",
+    "static/media/Caveat-Regular.ttf": "/React-Portfolio/static/media/Caveat-Regular.419940188ab4de524042.ttf",
+    "static/media/GitHubIcon.png": "/React-Portfolio/static/media/GitHubIcon.00c601f1724a126c1cbd.png",
+    "static/media/Home.png": "/React-Portfolio/static/media/Home.a83e96d7cc6fc3c5d342.png",
+    "static/media/EclipseIcon.png": "/React-Portfolio/static/media/EclipseIcon.2ad62ba9c60942fa8227.png",
     "static/media/RobotoSlab-Bold.ttf": "/React-Portfolio/static/media/RobotoSlab-Bold.37f7c30bbfc1ebae4939.ttf",
+    "static/media/RobotoSlab-Regular.ttf": "/React-Portfolio/static/media/RobotoSlab-Regular.51fdb083efba0dd8a5ea.ttf",
+    "static/media/NodeIcon.png": "/React-Portfolio/static/media/NodeIcon.d980d9636ace07ad3dde.png",
     "static/media/Programmer.png": "/React-Portfolio/static/media/Programmer.b23699ab4e5af5efd127.png",
+    "static/media/CSSIcon.png": "/React-Portfolio/static/media/CSSIcon.4f38b4751042b11b5179.png",
+    "static/media/ReactIcon.png": "/React-Portfolio/static/media/ReactIcon.3e9820dc44ddde88975e.png",
+    "static/media/Programmer2.jpg": "/React-Portfolio/static/media/Programmer2.1cd68ca59789a23cf69d.jpg",
+    "static/media/JavaIcon.png": "/React-Portfolio/static/media/JavaIcon.e0d681f7a692383b0a15.png",
+    "static/media/VSCIcon.png": "/React-Portfolio/static/media/VSCIcon.2a307889c8b78572ae12.png",
+    "static/media/revicons.eot": "/React-Portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/React-Portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/React-Portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/slick.svg": "/React-Portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/React-Portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/React-Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/React-Portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/React-Portfolio/index.html",
-    "main.fa1e4dc1.css.map": "/React-Portfolio/static/css/main.fa1e4dc1.css.map",
-    "main.3b5ef01f.js.map": "/React-Portfolio/static/js/main.3b5ef01f.js.map",
+    "main.1009eb1f.css.map": "/React-Portfolio/static/css/main.1009eb1f.css.map",
+    "main.d4dd1703.js.map": "/React-Portfolio/static/js/main.d4dd1703.js.map",
     "787.456f82d2.chunk.js.map": "/React-Portfolio/static/js/787.456f82d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa1e4dc1.css",
-    "static/js/main.3b5ef01f.js"
+    "static/css/main.1009eb1f.css",
+    "static/js/main.d4dd1703.js"
   ]
 }
