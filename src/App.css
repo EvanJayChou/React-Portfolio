@@ -1,4 +1,5 @@
-/* ----- Implementing fonts ----- */
+/* ---------- Implementing fonts ---------- */
+
 @font-face {
   font-family: 'Roboto';
   src: url('./assets/Roboto_Slab/static/RobotoSlab-Bold.ttf');
@@ -27,7 +28,8 @@
   font-weight: normal;
 }
 
-/* ----- General ----- */
+
+/* ---------- General ---------- */
 h1 {
   font-size: 70px;
   font-family: 'Palanquin', sans-serif;
@@ -52,18 +54,40 @@ li {
   font-family: 'Roboto2', sans-serif;
 }
 
-/* ----- Animations ----- */
+
+/* ---------- Animations ---------- */
 
 @keyframes moveUpDown {
   0%, 100% {
-    transform: translateY(0);
+    transform: translateY(10px);
   }
   50% {
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
 }
 
-/* ----- Welcome/Homepage ----- */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-50%);
+    opacity:0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity:1;
+  }
+}
+
+@keyframes typewriter {
+  from { 
+    width: 0; 
+  }
+  to { 
+    width: 100%; 
+  }
+}
+
+
+/* ---------- Welcome/Homepage ---------- */
 #welcome {
   background-color: whitesmoke;
   height:100vh;
@@ -132,6 +156,44 @@ li {
   left: 40px;
 }
 
+#welcomeImages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: slideInFromLeft 2s ease-in-out 0s 1,moveUpDown 2s ease-in-out 2s infinite;
+  margin-left: 50%;
+  margin-top: -12.5%;
+}
+
+#welcomePic {
+  width: 45vw;
+  height: auto;
+  position:absolute
+}
+
+@media (min-width:1200px) {
+  #welcomePic {
+    width: 639px;
+  }
+}
+
+#programmerPic {
+  width: 35vw;
+  height: auto;
+  max-width: 630px;
+  position: absolute;
+}
+
+@media (min-width: 1200px) {
+  #programmerPic {
+    width: 500px;
+  }
+}
+
+
+/* ---------- Topbar ---------- */
+
 #topbar {
   color: black;
   background-color: white;
@@ -153,40 +215,6 @@ li {
     display: none;
   }
 }
-
-#welcomePic {
-  width: 45vw;
-  height: auto;
-  margin-left: 0px;
-  margin-top: 20px;
-  position: absolute;
-  top: 15%;
-  right: 10px;
-}
-
-@media (min-width:1200px) {
-  #welcomePic {
-    width: 639px;
-  }
-}
-
-#programmerPic {
-  width: 35vw;
-  height: auto;
-  max-width: 630px;
-  position: absolute;
-  top: 30%;
-  right: 35px;
-  animation: moveUpDown 2s ease-in-out infinite;
-}
-
-@media (min-width: 1200px) {
-  #programmerPic {
-    width: 500px;
-  }
-}
-
-/* ----- Topbar ----- */
 
 #topleft {
   font-size: 50px;
@@ -232,7 +260,8 @@ li {
   z-index: 1000;
 }
 
-/* ----- About section ----- */
+
+/* ---------- About section ---------- */
 #descrip {
   font-size: 25px;
 }
@@ -249,7 +278,8 @@ li {
   color: white;
 }
 
-/* ----- Skills section -----*/
+
+/* ---------- Skills section ----------*/
 #skills {
   position: relative;
   background-color: #123566;
@@ -290,7 +320,7 @@ li {
 }
 
 #card {
-  margin: 0 60px 0 60px;
+  margin: 0 50px 0 50px;
   align-items: center;
   text-align: center;
   border: 10px solid antiquewhite;
@@ -310,30 +340,95 @@ li {
   height: 120px;
 }
 
-/* ----- Portfolio section -----*/
+
+/* ---------- Portfolio section ----------*/
 #portfolio {
   position: relative;
   background-color: #123566;
+  padding: 5vh;
+  height: 75vh;
 }
 
-/* ----- Education section -----*/
+/* ---------- Education section ----------*/
 #education {
   position: relative;
   background-color: #123566;
+  padding: 5vh;
+  height: 110vh;
 }
 
-/*----- Contacts section -----*/
+#card3 {
+  margin: 0 30px 0 30px;
+  align-items: center;
+  text-align: center;
+  border: 10px solid antiquewhite;
+  border-radius: 15px;
+  width: 30%;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  font-family: 'Roboto2', sans-serif;
+}
+
+#card3 img {
+  height: 25%;
+  width: auto;
+}
+
+#card3 h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#edcards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*---------- Contacts section ----------*/
 #contacts {
   position: relative;
-  background-color: #F9FAFC;
+  background-color: #FAFBFD;
   color: black;
+  height: 75vh;
+  padding: 5vh;
 }
 
+#card2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#card2 img {
+  height: 50px;
+  width: auto;
+  margin-right: 20px;
+  margin-top: 20px;
+}
 #programmer {
   width: 55vw;
   height: auto;
   max-width: 630px;
   position: absolute;
-  top: 27.5%;
-  left: 0;
+  top: 12.5%;
+  left: 5%;
+}
+
+#contacts h1 {
+  margin-left: 60%;
+  margin-bottom: 0;
+}
+
+#contacts h2 {
+  font-size: 30px;
+  font-family: 'Roboto2', sans-serif;
+}
+
+#contactcards {
+  margin-left: 60%;
 }
