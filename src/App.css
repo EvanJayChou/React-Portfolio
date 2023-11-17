@@ -271,8 +271,8 @@ li {
 }
 
 #about {
-  background-color: #123566;
-  height:70vh;
+  background: linear-gradient(30deg, purple, #123566 50%, purple);
+  height:75vh;
   padding: 5vh;
   position: relative;
   color: white;
@@ -282,7 +282,7 @@ li {
 /* ---------- Skills section ----------*/
 #skills {
   position: relative;
-  background-color: #123566;
+  background: linear-gradient(-30deg, purple, #123566 60%, purple);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -304,12 +304,9 @@ li {
 }
 
 .carouselcontainer {
-  width: 70%;
-  border: 10px solid antiquewhite;
-  border-radius: 30px;
+  width: 80%;
   height: 40vh;
-  background-color: #FF9100;
-  margin-top: -50px;
+  margin-top: -5%;
 }
 
 #tools {
@@ -340,19 +337,43 @@ li {
   height: 120px;
 }
 
+#tools h2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: bold;
+}
+
+#skillCarousel {
+  width: 85%;
+  height: 40%;
+  border: 10px solid antiquewhite;
+  border-radius: 30px;
+  background-color: #123566;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#skillCarousel h1 {
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 
 /* ---------- Portfolio section ----------*/
 #portfolio {
   position: relative;
-  background-color: #123566;
+  background-color: #444444;
   padding: 5vh;
-  height: 75vh;
+  height: 90vh;
 }
 
 /* ---------- Education section ----------*/
 #education {
   position: relative;
-  background-color: #123566;
+  background: radial-gradient(ellipse at center, #123566, #444444);
   padding: 5vh;
   height: 110vh;
 }
@@ -378,6 +399,12 @@ li {
   width: auto;
 }
 
+#card3 h2 {
+  font-family: 'Palanquin', sans-serif;
+  font-size: 30px;
+  line-height: 1.1;
+}
+
 #card3 h3 {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -387,6 +414,18 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+#date {
+  font-family: 'Palanquin', sans-serif;
+  font-size: 25px;
+  margin-top: -5%;
+  margin-bottom: 2.5%;
+}
+
+#education p {
+  margin-right: 2.5%;
+  margin-left: 2.5%;
 }
 
 /*---------- Contacts section ----------*/

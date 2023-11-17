@@ -45,42 +45,44 @@ function App() {
         <p id='location'>Designated in Los Angeles, California</p>
       </section>
       <section id='skills'>
-        <h1>Skills:</h1>
-        <Carousel responsive={responsive} infinite={true} swipeable={true} 
-        containerClass='carouselcontainer' itemClass='carousel'>
-          <div id='item'>
-            <img id='itempic' src={require('./assets/images/CSSIcon.png')} alt='CSS Icon' />
-            <h2>CSS</h2>
-          </div>
-          <div id='item'>
-            <img id='itempic' src={require('./assets/images/JavaIcon.png')} alt='Java Icon' />
-            <h2>Java</h2>
-          </div>
-          <div id='item'>
-            <img id='itempic' src={require('./assets/images/HTMLIcon.png')} alt='HTML Icon' />
-            <h2>HTML</h2>
-          </div>
-          <div id='item'>
-            <img id='itempic' src={require('./assets/images/ReactIcon.png')} alt='React Icon' />
-            <h2>React</h2>
-          </div>
-          <div id='item'>
-            <img id='itempic' src={require('./assets/images/JavaScriptIcon.png')} alt='JavaScript Icon' />
-            <h2>JavaScript</h2>
-          </div>
-          <div id='item'>
-            <img id='itempic' src={require('./assets/images/NodeIcon.png')} alt='Node.js Icon' />
-            <h2>Node.js</h2>
-          </div>
-          <div id='item'>
-            <img id='itempic' src={require('./assets/images/C++Icon.png')} alt='C++ Icon'/>
-            <h2>C++</h2>
-          </div>
-          <div id='item'>
-            <img id='itempic' src={require('./assets/images/PythonLogo.png')} alt='Python Icon'/>
-            <h2>Python</h2>
-          </div>
-        </Carousel>
+        <div id='skillCarousel'>
+          <h1>Skills:</h1>
+          <Carousel responsive={responsive} infinite={true} swipeable={true} 
+          containerClass='carouselcontainer' itemClass='carousel'>
+            <div id='item'>
+              <img id='itempic' src={require('./assets/images/CSSIcon.png')} alt='CSS Icon' />
+              <h2>CSS</h2>
+            </div>
+            <div id='item'>
+              <img id='itempic' src={require('./assets/images/JavaIcon.png')} alt='Java Icon' />
+              <h2>Java</h2>
+            </div>
+            <div id='item'>
+              <img id='itempic' src={require('./assets/images/HTMLIcon.png')} alt='HTML Icon' />
+              <h2>HTML</h2>
+            </div>
+            <div id='item'>
+              <img id='itempic' src={require('./assets/images/ReactIcon.png')} alt='React Icon' />
+              <h2>React</h2>
+            </div>
+            <div id='item'>
+              <img id='itempic' src={require('./assets/images/JavaScriptIcon.png')} alt='JavaScript Icon' />
+              <h2>JavaScript</h2>
+            </div>
+            <div id='item'>
+              <img id='itempic' src={require('./assets/images/NodeIcon.png')} alt='Node.js Icon' />
+              <h2>Node.js</h2>
+            </div>
+            <div id='item'>
+              <img id='itempic' src={require('./assets/images/C++Icon.png')} alt='C++ Icon'/>
+              <h2>C++</h2>
+            </div>
+            <div id='item'>
+              <img id='itempic' src={require('./assets/images/PythonLogo.png')} alt='Python Icon'/>
+              <h2>Python</h2>
+            </div>
+          </Carousel>
+        </div>
         <h1>Developer Tools:</h1>
         <div id='tools'>
           <div id='card'>
@@ -114,7 +116,8 @@ function App() {
             class catalogue, user accounts, etc. Implemented data structures such as ArrayLists and HashMaps to store user data. 
             Designed a file input/output system for saving and loading gradebook data, ensuring data persistence.<br></br>
             -	Created an Online Library Management System that simulates the operations of a library, including managing books, users, borrowing, and returning books, 
-            and keeping track of due dates. Implemented data structures such as ArrayLists, HashMaps, LinkedLists, and Stacks and Queues to manage library functions and saved data.
+            and keeping track of due dates. Implemented data structures such as ArrayLists, HashMaps, LinkedLists, and Stacks and Queues to 
+            manage library functions and saved data. <br></br>
             -	Created a To-Do List Application which allows users to manage their tasks by adding, updating, marking as complete, and deleting tasks. 
             Deepened understanding of data structures and applied object-oriented programming. Incorporated file input/output for saving and loading task lists, 
             allowing users to maintain their tasks across sessions.</p>
@@ -124,7 +127,8 @@ function App() {
         <div id='edcards'>
           <div id='card3'>
             <img src={require('./assets/images/PCCLogo.png')} alt='PCC Logo'/>
-            <h2>Pasadena City College<br></br>(May 2023 - June 2025)</h2>
+            <h2>Pasadena City College</h2>
+              <h4 id='date'>May 2023 - June 2025</h4>
               <h3>AS: Electrical Engineering</h3>
               {/*<h3>AS: Civil Engineering</h3>
               <h3>AS: Mechanical, Aerospace, and Manufacturing Engineering</h3>*/}
@@ -136,13 +140,15 @@ function App() {
           </div>
           <div id='card3'>
             {/*<img src={require('./assets/images/UCBLogo.png')} alt='UCB Logo'/>*/}
-            <h2>UC: TBA <br></br>(September 2025 - June 2027)</h2>
+            <h2>University of California: TBA</h2>
+              <h4 id='date'>September 2025 - June 2027</h4>
               <h3>BS: Electrical Engineering and Computer Sciences, <br></br>Minor in Data Science</h3>
           </div>
           {/*
           <div id='card3'>
             <img src={require('./assets/images/UCSDLogo.jpg')} alt='UCSD Logo'/>
-            <h2>UC San Diego<br></br> (September 2027 - June 2029)</h2>
+            <h2>UC San Diego</h2>
+              <h4 id='date'>September 2027 - June 2029</h4>
               <h3>MS: Electrical and Computer Engineering with specialization in Machine Learning & Data Science</h3>
               <h3>MS: Electrical and Computer Enginering with specialization in Nanoscale Devices & Systems</h3>
               <h3>MS: Nanoengineering</h3>
