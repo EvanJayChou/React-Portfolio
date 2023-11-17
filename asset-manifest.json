@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.8fdff37a.css",
-    "main.js": "/React-Portfolio/static/js/main.e5a93852.js",
+    "main.css": "/React-Portfolio/static/css/main.d277a0ca.css",
+    "main.js": "/React-Portfolio/static/js/main.2fd04e57.js",
     "static/js/787.456f82d2.chunk.js": "/React-Portfolio/static/js/787.456f82d2.chunk.js",
     "static/media/PythonLogo.png": "/React-Portfolio/static/media/PythonLogo.91072be85b01ef0961a8.png",
     "static/media/PalanquinDark-SemiBold.ttf": "/React-Portfolio/static/media/PalanquinDark-SemiBold.850ab211f6efceb29b34.ttf",
     "static/media/JavaScriptIcon.png": "/React-Portfolio/static/media/JavaScriptIcon.c0a36a4d3ef2881a1c11.png",
+    "static/media/DataScienceIcon.png": "/React-Portfolio/static/media/DataScienceIcon.77f076efd53d3abc374b.png",
     "static/media/Caveat-Regular.ttf": "/React-Portfolio/static/media/Caveat-Regular.419940188ab4de524042.ttf",
     "static/media/GitHubIcon.png": "/React-Portfolio/static/media/GitHubIcon.95845fec685b42562337.png",
     "static/media/Programmer2.jpg": "/React-Portfolio/static/media/Programmer2.04ef59aed2ff311b2e32.jpg",
@@ -28,12 +29,12 @@
     "static/media/revicons.ttf": "/React-Portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/React-Portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/React-Portfolio/index.html",
-    "main.8fdff37a.css.map": "/React-Portfolio/static/css/main.8fdff37a.css.map",
-    "main.e5a93852.js.map": "/React-Portfolio/static/js/main.e5a93852.js.map",
+    "main.d277a0ca.css.map": "/React-Portfolio/static/css/main.d277a0ca.css.map",
+    "main.2fd04e57.js.map": "/React-Portfolio/static/js/main.2fd04e57.js.map",
     "787.456f82d2.chunk.js.map": "/React-Portfolio/static/js/787.456f82d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fdff37a.css",
-    "static/js/main.e5a93852.js"
+    "static/css/main.d277a0ca.css",
+    "static/js/main.2fd04e57.js"
   ]
 }
