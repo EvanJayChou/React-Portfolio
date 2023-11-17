@@ -1,4 +1,3 @@
-import Typewriter from './components/typewriter';
 import './App.css';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -19,10 +18,12 @@ function App() {
         </div>
         <button id='scrollToTop' onClick={scrollToTop}>^</button>
       <section id='welcome'>
-        <div id='welcoming'>
-          <p id='htmlpart'>&lt;html&gt; <br /><br /><br /><br /><br />&lt;/html&gt;</p>
-          <p id='divpart'>&lt;div&gt;<br /><br /><br />&lt;/div&gt;</p>
+        <div id='welcoming' className='typewriter'>
+          <p id='htmlpart'>&lt;html&gt;</p>
+          <p id='divpart'>&lt;div&gt;</p>
           <p id='welcomepart'>Welcome to my page!</p>
+          <p id='divpart2'>&lt;/div&gt;</p>
+          <p id='htmlpart2'>&lt;/html&gt;</p>
         </div>
         <div id='titles'>
           <h1 id='welcometitle'>Evan J. Chou</h1>
@@ -34,19 +35,22 @@ function App() {
         </div>
       </section>
       <section id='about'>
-        <h1>About:</h1>
-        <p id='descrip'>
-          Welcome to my personal portfolio page!
-          I'm Evan Chou, a dedicated college student with a passion for software engineering and data science.
-          As an avid learner, I am actively cultivating a diverse skill set and accumulating valuable experience in these fields.
-          My enthusiasm extends to the dynamic realms of machine learning and artificial intelligence,
-          where I am eager to contribute and make a meaningful impact.
-        </p>
-        <p id='location'>Designated in Los Angeles, California</p>
+        <div id='abttext'>
+          <h1>About</h1>
+          <p id='descrip'>
+            Welcome to my personal portfolio page!
+            I'm Evan Chou, a dedicated college student with a passion for software engineering and data science.
+            As an avid learner, I am actively cultivating a diverse skill set and accumulating valuable experience in these fields.
+            My enthusiasm extends to the dynamic realms of machine learning and artificial intelligence,
+            where I am eager to contribute and make a meaningful impact.
+          </p>
+          <p id='location'>Designated in Los Angeles, California</p>
+        </div>
+        <img id='dsicon' src={require('./assets/images/DataScienceIcon.png')} alt='Data Science'/>
       </section>
       <section id='skills'>
         <div id='skillCarousel'>
-          <h1>Skills:</h1>
+          <h1>Skills</h1>
           <Carousel responsive={responsive} infinite={true} swipeable={true} 
           containerClass='carouselcontainer' itemClass='carousel'>
             <div id='item'>
@@ -83,7 +87,7 @@ function App() {
             </div>
           </Carousel>
         </div>
-        <h1>Developer Tools:</h1>
+        <h1>Developer Tools</h1>
         <div id='tools'>
           <div id='card'>
             <img src={require('./assets/images/EclipseIcon.png')} alt='Eclipse'/>
@@ -104,7 +108,7 @@ function App() {
         </div>
       </section>
       <section id='portfolio'>
-        <h1>Portfolio:</h1>
+        <h1>Portfolio</h1>
         <h2>React.js Portfolio</h2>
           <p>Created a personal portfolio page using JavaScript, HTML, CSS, Node.js, and React</p>
         <h2>Artificial Intelligence and Machine Learning Research</h2>
@@ -123,7 +127,7 @@ function App() {
             allowing users to maintain their tasks across sessions.</p>
       </section>
       <section id='education'>
-        <h1>Education:</h1>
+        <h1>Education</h1>
         <div id='edcards'>
           <div id='card3'>
             <img src={require('./assets/images/PCCLogo.png')} alt='PCC Logo'/>
