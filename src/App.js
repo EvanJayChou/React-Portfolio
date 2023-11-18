@@ -130,7 +130,7 @@ function App() {
         <section id='education'>
           <h1>Education</h1>
           <div id='edcards'>
-            <div id='card3'>
+            <div className='card3'>
               <img src={require('./assets/images/PCCLogo.png')} alt='PCC Logo'/>
               <h2>Pasadena City College</h2>
                 <h4 id='date'>May 2023 - June 2025</h4>
@@ -143,14 +143,13 @@ function App() {
                   physics for engineers
                 </p>
             </div>
-            <div id='card3'>
+            <div className='card3' id='uc'>
               {/*<img src={require('./assets/images/UCBLogo.png')} alt='UCB Logo'/>*/}
               <h2>University of California: TBA</h2>
                 <h4 id='date'>September 2025 - June 2027</h4>
                 <h3>BS: Electrical Engineering and Computer Sciences, <br></br>Minor in Data Science</h3>
-            </div>
-            {/*
-            <div id='card3'>
+            </div>{/*
+            <div className='card3'>
               <img src={require('./assets/images/UCSDLogo.jpg')} alt='UCSD Logo'/>
               <h2>UC San Diego</h2>
                 <h4 id='date'>September 2027 - June 2029</h4>
