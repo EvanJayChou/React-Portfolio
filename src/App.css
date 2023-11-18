@@ -206,6 +206,10 @@ li {
 
 /* --- Optimization for mobile devices --- */
 @media (max-width: 700px) {
+  #welcome {
+    height: 90vh;
+  }
+
   #welcometitle, #jobtitle {
     margin-left: -20px;
   }
@@ -315,6 +319,7 @@ li {
 
   #topbar {
     height: 65px;
+    width: 100vw;
   }
 
   #out {
