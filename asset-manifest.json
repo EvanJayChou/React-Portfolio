@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.77d02efc.css",
-    "main.js": "/React-Portfolio/static/js/main.0e9819fb.js",
+    "main.css": "/React-Portfolio/static/css/main.d5078ebd.css",
+    "main.js": "/React-Portfolio/static/js/main.693a0af0.js",
     "static/js/787.456f82d2.chunk.js": "/React-Portfolio/static/js/787.456f82d2.chunk.js",
     "static/media/PythonLogo.png": "/React-Portfolio/static/media/PythonLogo.91072be85b01ef0961a8.png",
     "static/media/PalanquinDark-SemiBold.ttf": "/React-Portfolio/static/media/PalanquinDark-SemiBold.850ab211f6efceb29b34.ttf",
@@ -29,12 +29,12 @@
     "static/media/revicons.ttf": "/React-Portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/React-Portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/React-Portfolio/index.html",
-    "main.77d02efc.css.map": "/React-Portfolio/static/css/main.77d02efc.css.map",
-    "main.0e9819fb.js.map": "/React-Portfolio/static/js/main.0e9819fb.js.map",
+    "main.d5078ebd.css.map": "/React-Portfolio/static/css/main.d5078ebd.css.map",
+    "main.693a0af0.js.map": "/React-Portfolio/static/js/main.693a0af0.js.map",
     "787.456f82d2.chunk.js.map": "/React-Portfolio/static/js/787.456f82d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77d02efc.css",
-    "static/js/main.0e9819fb.js"
+    "static/css/main.d5078ebd.css",
+    "static/js/main.693a0af0.js"
   ]
 }
