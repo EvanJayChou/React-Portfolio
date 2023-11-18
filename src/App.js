@@ -160,9 +160,8 @@ function App() {
         </div>
       </section>
       <section id='contacts'>
-        <h1>Contact Me!</h1>
-        <img id='programmer' src={require('./assets/images/Programmer2.jpg')} alt='programmer' />
         <div id='contactcards'>
+          <h1>Contact Me!</h1>
           <div id='card2'>  
             <img id='item2' src={require('./assets/images/MailIcon.png')} alt='email'/>
             <h2>Email: evan.chou@live.com</h2>
@@ -180,6 +179,7 @@ function App() {
             <h2><a href='https://github.com/EvanJayChou' target='_blank'>GitHub: EvanJayChou</a></h2>
           </div>
         </div>
+        <img id='programmer' src={require('./assets/images/Programmer2.jpg')} alt='programmer' />
       </section>
     </body>
   );

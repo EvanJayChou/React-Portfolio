@@ -55,6 +55,11 @@ li {
   font-family: 'Roboto2', sans-serif;
 }
 
+@media (max-width: 700px) {
+  h1 {
+    font-size: 50px;
+  }
+}
 
 /* ---------- Animations ---------- */
 
@@ -228,7 +233,7 @@ li {
 
   #welcomeImages {
     margin-left:auto;
-    margin-top: 40vh;
+    margin-top: 35vh;
   }
 
   #welcomePic {
@@ -371,6 +376,28 @@ li {
   margin-right: 10px;
 }
 
+/* --- Optimize for mobile --- */
+@media (max-width: 700px) {
+  #about {
+    flex-direction: column;
+    padding: 0.01vh 50px 0 50px;
+    height: 85vh;
+  }
+
+  #descrip {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  #location {
+    font-size: 11px;
+  }
+
+  #dsicon {
+    width: 60%;
+  }
+}
+
 
 /* ---------- Skills section ----------*/
 #skills {
@@ -458,6 +485,13 @@ li {
   justify-content: center;
 }
 
+/* --- Optimize for mobile --- */
+@media (max-width: 700px) {
+  #tools {
+    gap: 10px;
+  }
+}
+
 
 /* ---------- Portfolio section ----------*/
 #portfolio {
@@ -536,13 +570,22 @@ li {
   margin-left: 2.5%;
 }
 
+/* --- Optimize for mobile --- */
+@media (max-width: 700px) {
+  #edcards {
+  }
+}
+
 
 /*---------- Contacts section ----------*/
 #contacts {
-  position: relative;
   background-color: #FAFBFD;
   color: black;
   height: 75vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 20px;
 }
 
 #card2 {
@@ -559,16 +602,11 @@ li {
 }
 
 #programmer {
-  width: 55vw;
-  height: auto;
-  max-width: 630px;
-  position: absolute;
-  top: 12.5%;
-  left: 5%;
+  width: 45vw;
+  height: 65vh;
 }
 
 #contacts h1 {
-  margin-left: 60%;
   margin-bottom: 0;
 }
 
@@ -578,6 +616,15 @@ li {
   color: #123566;
 }
 
-#contactcards {
-  margin-left: 60%;
+/* --- Optimize for mobile --- */
+@media (max-width: 700px) {
+  #contacts {
+    flex-direction: column;
+    align-items: center;
+    height: 85vh;
+  }
+
+  #contacts h2 {
+    font-size: 25px;
+  }
 }
