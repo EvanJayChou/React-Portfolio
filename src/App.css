@@ -583,7 +583,7 @@ li {
 /* --- Optimize for mobile --- */
 @media (max-width: 700px) {
   #card3 {
-    width: 80%;
+    width: 80vw;
   }
 }
 
@@ -638,5 +638,13 @@ li {
   #programmer {
     width: 75vw;
     height: auto;
+  }
+
+  #contacts h2 {
+    font-size: 4vw;
+  }
+
+  #card2 img {
+    height: 7vw;
   }
 }
