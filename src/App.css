@@ -130,14 +130,16 @@ li {
 #welcometitle {
   font-size: 9vw;
   font-family: 'Palanquin', sans-serif;
-  margin-bottom: 100px;
+  margin-bottom: 10vh;
   margin-top: 0px;
   color: black;
+  line-height: 1.75;
 }
 
 @media (min-width: 1200px) {
   #welcometitle {
     font-size: 125px;
+    margin-bottom: 100px;
   }
 }
 
@@ -145,7 +147,7 @@ li {
   font-size: 3.5vw;
   font-family: 'Roboto', sans-serif;
   margin-top: -20px;
-  padding-bottom: 40px;
+  padding-bottom: 6vh;
   bottom: 0;
   color: #123566;
 }
@@ -153,6 +155,7 @@ li {
 @media (min-width: 1200px) {
   #jobtitle {
     font-size: 40px;
+    padding-bottom: 40px;
   }
 }
 
@@ -163,7 +166,7 @@ li {
   bottom: 0;
   left: 40px;
   transform: translateX(-200%);
-  animation: slideInFromLeft2 2s ease-in-out 2.5s forwards;
+  animation: slideInFromLeft2 2s ease-in-out 2s forwards;
 }
 
 #welcomeImages {
@@ -201,6 +204,40 @@ li {
   }
 }
 
+/* --- Optimization for mobile devices --- */
+@media (max-width: 700px) {
+  #welcometitle, #jobtitle {
+    margin-left: -20px;
+  }
+
+  #welcometitle {
+    font-size: 12vw;
+  }
+
+  #jobtitle {
+    font-size: 4vw;
+  }
+
+  #welcoming p {
+    display: none;
+  }
+
+  #welcomeImages {
+    margin-left:auto;
+    margin-top: 40vh;
+  }
+
+  #welcomePic {
+    width: 75vw;
+    height: auto;
+  }
+
+  #programmerPic {
+    width: 60vw;
+    height:auto;
+  }
+}
+
 
 /* ---------- Topbar ---------- */
 
@@ -215,15 +252,6 @@ li {
   font-family: 'Roboto', sans-serif;
   z-index: 11;
   border-bottom: 5px solid black;
-}
-
-@media (max-width: 1200px) {
-  #topbar {
-    display: none;
-  }
-  #sections {
-    display: none;
-  }
 }
 
 #topleft {
@@ -257,7 +285,7 @@ li {
 #scrollToTop {
   display: block;
   border: 2px solid black;
-  background-color: white;
+  background-color: black;
   border-radius: 50px;
   position: fixed;
   font-size: 40px;
@@ -269,14 +297,51 @@ li {
   bottom: 10px;
   right: 10px;
   z-index: 1000;
+  color: white;
+}
+
+@media (max-width: 1200px) {
+  #scrollToTop {
+    display: none;
+  }
+}
+
+/* --- Optimize for mobile --- */
+@media (max-width: 1200px) {
+  #topleft {
+    font-size: 40px;
+    margin-left: 10px;
+  }
+
+  #topbar {
+    height: 65px;
+  }
+
+  #out {
+    display: none
+  }
+
+  #sections li {
+    margin-top: 13px;
+  }
+
+  #sections {
+    margin-right: 5px;
+  }
 }
 
 
 /* ---------- About section ---------- */
 #descrip {
-  font-size: 25px;
+  font-size: 2.5vw;
   width: 80%;
   margin-top: -50px;
+}
+
+@media (min-width: 1200px) {
+  #descrip {
+    font-size: 25px;
+  }
 }
 
 #location {
@@ -409,7 +474,7 @@ li {
 /* ---------- Education section ----------*/
 #education {
   position: relative;
-  background: linear-gradient(to right, #123566, transparent);
+  background: linear-gradient(30deg, purple, #123566 40%, purple);
   height: 110vh;
   border-bottom: 5px solid black;
 }
@@ -505,6 +570,7 @@ li {
 #contacts h2 {
   font-size: 30px;
   font-family: 'Roboto2', sans-serif;
+  color: #123566;
 }
 
 #contactcards {

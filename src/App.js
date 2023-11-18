@@ -9,11 +9,11 @@ function App() {
         <div id='topbar'>
           <h1 id='topleft'>Evan Chou</h1>
           <ul id='sections'>
-            <li><a href='#about'>About</a></li>
-            <li><a href='#skills'>Skills</a></li>
-            <li><a href='#portfolio'>Portfolio</a></li>
-            <li><a href='#education'>Education</a></li>
-            <li><a href='#contacts'>Contacts</a></li>
+              <li id='out'><a href='#about'>About</a></li>
+              <li id='out'><a href='#skills'>Skills</a></li>
+              <li id='out'><a href='#portfolio'>Portfolio</a></li>
+              <li id='out'><a href='#education'>Education</a></li>
+              <li><a href='#contacts'>Contacts</a></li>
           </ul>
         </div>
         <button id='scrollToTop' onClick={scrollToTop}>^</button>
@@ -198,10 +198,10 @@ const responsive = {
     breakpoint: {max:3000, min:1024}, items: 3
   },
   tablet: {
-    breakpoint: {max:1024, min:464}, items: 2
+    breakpoint: {max:1024, min:600}, items: 2
   },
   mobile: {
-    breakpoint: {max:464, min: 0}, items: 1
+    breakpoint: {max:600, min: 0}, items: 1
   }
 };
 
