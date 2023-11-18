@@ -603,6 +603,7 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  align-items: center;
 }
 
 #programmer {
@@ -614,7 +615,6 @@ li {
   height: 3.75vw;
   width: auto;
   margin-right: 20px;
-  margin-top: 20px;
 }
 
 #contacts h1 {
@@ -632,19 +632,19 @@ li {
   #contacts {
     flex-direction: column;
     align-items: center;
-    height: 110vh;
+    height: 70vh;
   }
 
   #programmer {
-    width: 75vw;
+    width: 85vw;
     height: auto;
   }
 
   #contacts h2 {
-    font-size: 4vw;
+    font-size: 5vw;
   }
 
   #card2 img {
-    height: 7vw;
+    height: 10vw;
   }
 }
