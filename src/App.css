@@ -61,6 +61,7 @@ li {
   }
 }
 
+
 /* ---------- Animations ---------- */
 
 @keyframes moveUpDown {
@@ -213,6 +214,7 @@ li {
 @media (max-width: 700px) {
   #welcome {
     height: 90vh;
+    z-index: -1;
   }
 
   #welcometitle, #jobtitle {
@@ -237,12 +239,12 @@ li {
   }
 
   #welcomePic {
-    width: 110vw;
+    width: 100vw;
     height: auto;
   }
 
   #programmerPic {
-    width: 90vw;
+    width: 85vw;
     height:auto;
   }
 }
@@ -325,6 +327,7 @@ li {
   #topbar {
     height: 65px;
     width: 100vw;
+    z-index: 0;
   }
 
   #out {
@@ -441,10 +444,9 @@ li {
   margin: 0 45px 0 45px;
   align-items: center;
   text-align: center;
-  border: 10px solid antiquewhite;
   border-radius: 15px;
-  width: 225px;
-  height: 225px;
+  width: 230px;
+  height: 230px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -489,15 +491,16 @@ li {
 /* --- Optimize for mobile --- */
 @media (max-width: 700px) {
   #tools {
-    gap: 10px;
+    gap: 20px;
   }
 
   #skillCarousel {
-    width: 92.5vw;
+    width: 90vw;
   }
 
-  #tools h1 {
+  #develophead {
     font-size: 35px;
+    padding: 0.01vh 2vh 2vh 2vh;
   }
 
   #tools h2 {
@@ -505,14 +508,14 @@ li {
   }
 
   #tools img {
-    height: 12vh;
+    height: 9vh;
     width: auto;
   }
 
   #card {
     width: 30vw;
     height: 30vw;
-    margin: 0 5px 0 5px;
+    margin: 0 5px 20px 5px;
   }
 
   #tools {
@@ -543,6 +546,12 @@ li {
 
 #portfolio p {
   font-size: 1.4vw;
+}
+
+@media (max-width: 700px) {
+  #portfolio {
+    display: none;
+  }
 }
 
 
@@ -611,24 +620,25 @@ li {
 /* --- Optimize for mobile --- */
 @media (max-width: 700px) {
   .card3 {
-    width: 95vw;
+    width: 97.5vw;
     height: 85vh;
+    border: 0;
   }
 
   .card3 h2 {
-    font-size: 7vw;
+    font-size: 3.5vh;
   }
 
   .card3 h3 {
-    font-size: 5.5vw;
+    font-size: 2.75vh;
   }
 
   #date {
-    font-size: 6vw;
+    font-size: 3vh;
   }
 
   #education p {
-    font-size: 4vw;
+    font-size: 1.75vh;
   }
 
   #uc {
@@ -681,7 +691,7 @@ li {
   #contacts {
     flex-direction: column;
     align-items: center;
-    height: 75vh;
+    height: 80vh;
   }
 
   #programmer {

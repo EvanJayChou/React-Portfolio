@@ -88,7 +88,7 @@ function App() {
               </div>
             </Carousel>
           </div>
-          <h1>Developer Tools</h1>
+          <h1 id='develophead'>Developer Tools</h1>
           <div id='tools'>
             <div id='card'>
               <img src={require('./assets/images/EclipseIcon.png')} alt='Eclipse'/>
@@ -131,16 +131,39 @@ function App() {
           <h1>Education</h1>
           <div id='edcards'>
             <div className='card3'>
+              <img src={require('./assets/images/Codecademy.jpeg')} alt='Codecademy Logo'/>
+              <h2>Codecademy</h2>
+                <h4 id='date'>November 2023 - Present</h4>
+                <h3>Data Scientist: Machine Learning Specialist Professional Certification</h3>
+                  {/*<p>
+                    Relevant Coursework: Python for Data Science, Pandas, Machine Learning Fundamentals, 
+                    Supervised Learning, Unsupervised Learning, Deep Learning and Neural Networks
+                    </p>*/}
+                <h3>Data Scientist: Natural Language Processing Specialist Professional Certification</h3>
+                  {/*<p>
+                    Relevant Coursework: Natural Language Processing, Text Preprocessing, 
+                    Language Parsing and Quantification, Text Generation, Build Chatbots
+                  </p>*/}
+                <h3>Machine Learning/ AI Engineer Professional Certification</h3>
+                  {/*<p>
+                    Relevant Coursework: Software Engineering for Machine Learning / AI Engineers, 
+                    Machine Learning Pipelines, Command Line, Bash Scripting, Regularization and Hyperparameter Tuning
+                    </p>*/}
+                <h3>Full-Stack Engineer Professional Certification</h3>
+                  {/*<p>
+                    Relevant Coursework: HTML, CSS, JavaScript, Git, Building Interactive Websites, Website Accessibility, 
+                    React, Web Apps, HTTP Requests, Redux, Express.js, Relational Databases, Advanced PostgreSQL, 
+                    Swagger and OpenAI, Data Security, Web Security, Operating Systems. DevOps, Algorithms
+                    </p>*/}
+            </div>
+            <div className='card3'>
               <img src={require('./assets/images/PCCLogo.png')} alt='PCC Logo'/>
               <h2>Pasadena City College</h2>
                 <h4 id='date'>May 2023 - June 2025</h4>
                 <h3>AS: Electrical Engineering</h3>
-                {/*<h3>AS: Civil Engineering</h3>
-                <h3>AS: Mechanical, Aerospace, and Manufacturing Engineering</h3>*/}
                 <h3>AA: Engineering and Technologies</h3>
-                <p>Relevant coursework: Multivariable calculus, linear algebra, differential equations,
-                  engineering graphics, statics, circuits, materials, applied digital logic, C++ data structures,
-                  physics for engineers
+                <p>Relevant coursework: Multivariable calculus, linear algebra, discrete mathematics, differential equations,
+                  engineering graphics, circuits, applied digital logic, C++ data structures, physics for engineers
                 </p>
             </div>
             <div className='card3' id='uc'>
